@@ -18,6 +18,28 @@ class YYPlaceholderTextView: UITextView {
     
     var shouldDrawPlaceholder:Bool?
     
+    var _paddingTop:Float!
+    var paddingTop:Float!{
+    set{
+        self._paddingTop = newValue
+        self.setNeedsDisplay()
+    }
+    get{
+        return self._paddingTop
+    }
+    }
+    
+    var _paddingLeft:Float!
+    var paddingLeft:Float!{
+    set{
+        self._paddingLeft = newValue
+        self.setNeedsDisplay()
+    }
+    get{
+        return self._paddingLeft
+    }
+    }
+    
     init(frame: CGRect) {
         super.init(frame: frame, textContainer:nil)
         self.initialize()
@@ -34,7 +56,7 @@ class YYPlaceholderTextView: UITextView {
         
         if  shouldDrawPlaceholder == true{
             self.placeholderTextColor!.set()
-            self.placeholder!.drawInRect(CGRectMake(4.0, 8.0, self.frame.size.width - 8.0, self.frame.size.height-16.0),withFont:self.font)
+            self.placeholder!.drawInRect(CGRectMake(self.paddingLeft, self.paddingTop, self.frame.size.width - 2.0*self.paddingLeft, self.frame.size.height-16.0),withFont:self.font)
         }
     }
     
@@ -43,6 +65,8 @@ class YYPlaceholderTextView: UITextView {
     
         self.placeholderTextColor = UIColor(white:0.702,alpha:1.0)
         self.shouldDrawPlaceholder = false
+        self.paddingLeft = 4.0
+        self.paddingTop = 8.0
     }
     
     func updateShouldDrawPlaceholder(){
