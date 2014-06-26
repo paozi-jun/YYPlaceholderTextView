@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F4095B3195BD1C800693CDC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4095B2195BD1C800693CDC /* AppDelegate.swift */; };
+		8F4095B5195BD1C800693CDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095B4195BD1C800693CDC /* Images.xcassets */; };
+		8F4095C1195BD1C800693CDC /* YYPlaceholderTextViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F4095C0195BD1C800693CDC /* YYPlaceholderTextViewTests.swift */; };
+		8F4095CF195BD1E000693CDC /* Default-568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095CA195BD1E000693CDC /* Default-568@2x.png */; };
+		8F4095D0195BD1E000693CDC /* Default2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095CB195BD1E000693CDC /* Default2x.png */; };
+		8F4095D1195BD1E000693CDC /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095CC195BD1E000693CDC /* icon_120.png */; };
+		8F4095D2195BD1E000693CDC /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095CD195BD1E000693CDC /* icon.png */; };
+		8F4095D3195BD1E000693CDC /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4095CE195BD1E000693CDC /* icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F4095BB195BD1C800693CDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F4095A5195BD1C800693CDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F4095AC195BD1C800693CDC;
+			remoteInfo = YYPlaceholderTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F4095AD195BD1C800693CDC /* YYPlaceholderTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPlaceholderTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4095B1195BD1C800693CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4095B2195BD1C800693CDC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8F4095B4195BD1C800693CDC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8F4095BA195BD1C800693CDC /* YYPlaceholderTextViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YYPlaceholderTextViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F4095BF195BD1C800693CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F4095C0195BD1C800693CDC /* YYPlaceholderTextViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYPlaceholderTextViewTests.swift; sourceTree = "<group>"; };
+		8F4095CA195BD1E000693CDC /* Default-568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568@2x.png"; sourceTree = "<group>"; };
+		8F4095CB195BD1E000693CDC /* Default2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default2x.png; sourceTree = "<group>"; };
+		8F4095CC195BD1E000693CDC /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_120.png; sourceTree = "<group>"; };
+		8F4095CD195BD1E000693CDC /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		8F4095CE195BD1E000693CDC /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F4095AA195BD1C800693CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4095B7195BD1C800693CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F4095A4195BD1C800693CDC = {
+			isa = PBXGroup;
+			children = (
+				8F4095AF195BD1C800693CDC /* YYPlaceholderTextView */,
+				8F4095BD195BD1C800693CDC /* YYPlaceholderTextViewTests */,
+				8F4095AE195BD1C800693CDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F4095AE195BD1C800693CDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F4095AD195BD1C800693CDC /* YYPlaceholderTextView.app */,
+				8F4095BA195BD1C800693CDC /* YYPlaceholderTextViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F4095AF195BD1C800693CDC /* YYPlaceholderTextView */ = {
+			isa = PBXGroup;
+			children = (
+				8F4095B2195BD1C800693CDC /* AppDelegate.swift */,
+				8F4095B4195BD1C800693CDC /* Images.xcassets */,
+				8F4095B0195BD1C800693CDC /* Supporting Files */,
+			);
+			path = YYPlaceholderTextView;
+			sourceTree = "<group>";
+		};
+		8F4095B0195BD1C800693CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4095CA195BD1E000693CDC /* Default-568@2x.png */,
+				8F4095CB195BD1E000693CDC /* Default2x.png */,
+				8F4095CC195BD1E000693CDC /* icon_120.png */,
+				8F4095CD195BD1E000693CDC /* icon.png */,
+				8F4095CE195BD1E000693CDC /* icon@2x.png */,
+				8F4095B1195BD1C800693CDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8F4095BD195BD1C800693CDC /* YYPlaceholderTextViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8F4095C0195BD1C800693CDC /* YYPlaceholderTextViewTests.swift */,
+				8F4095BE195BD1C800693CDC /* Supporting Files */,
+			);
+			path = YYPlaceholderTextViewTests;
+			sourceTree = "<group>";
+		};
+		8F4095BE195BD1C800693CDC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F4095BF195BD1C800693CDC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F4095AC195BD1C800693CDC /* YYPlaceholderTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4095C4195BD1C800693CDC /* Build configuration list for PBXNativeTarget "YYPlaceholderTextView" */;
+			buildPhases = (
+				8F4095A9195BD1C800693CDC /* Sources */,
+				8F4095AA195BD1C800693CDC /* Frameworks */,
+				8F4095AB195BD1C800693CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YYPlaceholderTextView;
+			productName = YYPlaceholderTextView;
+			productReference = 8F4095AD195BD1C800693CDC /* YYPlaceholderTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F4095B9195BD1C800693CDC /* YYPlaceholderTextViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F4095C7195BD1C800693CDC /* Build configuration list for PBXNativeTarget "YYPlaceholderTextViewTests" */;
+			buildPhases = (
+				8F4095B6195BD1C800693CDC /* Sources */,
+				8F4095B7195BD1C800693CDC /* Frameworks */,
+				8F4095B8195BD1C800693CDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F4095BC195BD1C800693CDC /* PBXTargetDependency */,
+			);
+			name = YYPlaceholderTextViewTests;
+			productName = YYPlaceholderTextViewTests;
+			productReference = 8F4095BA195BD1C800693CDC /* YYPlaceholderTextViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F4095A5195BD1C800693CDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "向文品";
+				TargetAttributes = {
+					8F4095AC195BD1C800693CDC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					8F4095B9195BD1C800693CDC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 8F4095AC195BD1C800693CDC;
+					};
+				};
+			};
+			buildConfigurationList = 8F4095A8195BD1C800693CDC /* Build configuration list for PBXProject "YYPlaceholderTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8F4095A4195BD1C800693CDC;
+			productRefGroup = 8F4095AE195BD1C800693CDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F4095AC195BD1C800693CDC /* YYPlaceholderTextView */,
+				8F4095B9195BD1C800693CDC /* YYPlaceholderTextViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F4095AB195BD1C800693CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4095CF195BD1E000693CDC /* Default-568@2x.png in Resources */,
+				8F4095D2195BD1E000693CDC /* icon.png in Resources */,
+				8F4095D0195BD1E000693CDC /* Default2x.png in Resources */,
+				8F4095D1195BD1E000693CDC /* icon_120.png in Resources */,
+				8F4095B5195BD1C800693CDC /* Images.xcassets in Resources */,
+				8F4095D3195BD1E000693CDC /* icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4095B8195BD1C800693CDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F4095A9195BD1C800693CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4095B3195BD1C800693CDC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F4095B6195BD1C800693CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F4095C1195BD1C800693CDC /* YYPlaceholderTextViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F4095BC195BD1C800693CDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F4095AC195BD1C800693CDC /* YYPlaceholderTextView */;
+			targetProxy = 8F4095BB195BD1C800693CDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F4095C2195BD1C800693CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F4095C3195BD1C800693CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F4095C5195BD1C800693CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YYPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8F4095C6195BD1C800693CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = YYPlaceholderTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8F4095C8195BD1C800693CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YYPlaceholderTextView.app/YYPlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		8F4095C9195BD1C800693CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YYPlaceholderTextView.app/YYPlaceholderTextView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YYPlaceholderTextViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F4095A8195BD1C800693CDC /* Build configuration list for PBXProject "YYPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4095C2195BD1C800693CDC /* Debug */,
+				8F4095C3195BD1C800693CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F4095C4195BD1C800693CDC /* Build configuration list for PBXNativeTarget "YYPlaceholderTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4095C5195BD1C800693CDC /* Debug */,
+				8F4095C6195BD1C800693CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8F4095C7195BD1C800693CDC /* Build configuration list for PBXNativeTarget "YYPlaceholderTextViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F4095C8195BD1C800693CDC /* Debug */,
+				8F4095C9195BD1C800693CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F4095A5195BD1C800693CDC /* Project object */;
+}
