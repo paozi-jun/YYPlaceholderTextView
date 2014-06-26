@@ -18,16 +18,16 @@ class YYPlaceholderTextView: UITextView {
     
     var shouldDrawPlaceholder:Bool?
     
-    var _text:String!
-    override var text:String!{
-    get{
-        return self._text
-    }
-    set{
-        self._text = newValue
-        self.updateShouldDrawPlaceholder()
-    }
-    }
+    //var _text:String!
+//    override var text:String!{
+//    get{
+//        return self._text
+//    }
+//    set{
+//        self._text = newValue
+//        self.updateShouldDrawPlaceholder()
+//    }
+    //}
     
     init(frame: CGRect) {
         super.init(frame: frame, textContainer:nil)
@@ -38,7 +38,7 @@ class YYPlaceholderTextView: UITextView {
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
-        if (shouldDrawPlaceholder) {
+        if  shouldDrawPlaceholder == true{
             self.placeholderTextColor!.set()
             self.placeholder!.drawInRect(CGRectMake(4.0, 8.0, self.frame.size.width - 8.0, self.frame.size.height-16.0),withFont:self.font)
         }
@@ -56,15 +56,15 @@ class YYPlaceholderTextView: UITextView {
         self.shouldDrawPlaceholder = false
         if self.placeholder{
             if self.placeholderTextColor{
-                if !self.text{
+                if !self.text || self.text.utf16count == 0{
                     self.shouldDrawPlaceholder = true
                 }
             }
         }
         
-        if (prev != self.shouldDrawPlaceholder) {
-            self.setNeedsDisplay()
-        }
+    if (prev != self.shouldDrawPlaceholder) {
+        self.setNeedsDisplay()}
+      
     }
     
     
