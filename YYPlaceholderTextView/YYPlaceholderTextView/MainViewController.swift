@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
 
         var placeholderTextView = YYPlaceholderTextView(frame:CGRectMake(10, 50, 300, 200))
+        placeholderTextView.placeholder = "这是默认的输入"
         placeholderTextView.layer.borderWidth = 1
         self.view.addSubview(placeholderTextView)
         // Do any additional setup after loading the view.
