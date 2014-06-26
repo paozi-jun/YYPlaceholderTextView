@@ -18,23 +18,17 @@ class YYPlaceholderTextView: UITextView {
     
     var shouldDrawPlaceholder:Bool?
     
-    //var _text:String!
-//    override var text:String!{
-//    get{
-//        return self._text
-//    }
-//    set{
-//        self._text = newValue
-//        self.updateShouldDrawPlaceholder()
-//    }
-    //}
-    
     init(frame: CGRect) {
         super.init(frame: frame, textContainer:nil)
         self.initialize()
         // Initialization code
     }
 
+    func setText(#text:String){
+        self.text = text
+        self.updateShouldDrawPlaceholder()
+    }
+    
     override func drawRect(rect: CGRect) {
         super.drawRect(rect)
         
